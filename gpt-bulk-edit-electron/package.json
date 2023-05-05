@@ -1,0 +1,16 @@
+{
+  "name": "gpt-bulk-edit-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "marijnz",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^24.2.0",
+    "openai": "^3.2.1"
+  }
+}

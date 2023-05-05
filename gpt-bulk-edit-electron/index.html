@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GPT-4 Bulk Edit</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <div id="drop-zone" class="bg-light p-5 text-center shadow rounded">
+      <h4>Drag & Drop Files Here</h4>
+    </div>
+    <table id="file-table" class="table table-striped mt-3 shadow-sm">
+      <thead class="thead-light">
+        <tr>
+          <th>Filename</th>
+          <th>Status</th>
+          <th>Remove</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+    <div class="form-group mt-3">
+      <textarea id="query-text" class="form-control" rows="3" placeholder="Enter your query here"></textarea>
+    </div>
+    <button id="go-button" class="btn btn-primary float-right">GO</button>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

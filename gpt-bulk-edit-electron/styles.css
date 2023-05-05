@@ -1,0 +1,17 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+  font-weight: 400;
+}
+
+#drop-zone {
+  border: 2px dashed #007bff;
+  border-radius: 5px;
+}
+
+#go-button {
+  margin-top: 20px;
+}
